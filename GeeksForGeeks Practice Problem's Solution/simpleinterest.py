@@ -1,3 +1,4 @@
+# Program to Calculate Simple Interest
 def simpleinterest(a):
     interset_percent = float(10)
     interest_rate = (a*interset_percent//100)
