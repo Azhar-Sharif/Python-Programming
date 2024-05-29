@@ -1,5 +1,4 @@
 
-################################################
 # Recursive Function for nth Fibonacci number
 def recursive_fibo(n):
     if n < 1:
@@ -10,14 +9,11 @@ def recursive_fibo(n):
         return 1
     else:
         return recursive_fibo(n-1) + recursive_fibo(n-2)
-#################################################
-# Driver code
+def main():
+    count = 10
+    print("Fibonacci Series: ", end=' ')
 
-count = 10
-print("Fibonacci Series: ", end=' ')
-
-for i in range(1,count,1):
-    rv = recursive_fibo(i)
-    print(rv, end=' ')
-
-
+    for i in range(1,count,1):
+        rv = recursive_fibo(i)
+        print(rv, end=' ')
+main()
