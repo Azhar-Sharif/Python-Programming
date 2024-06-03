@@ -1,3 +1,4 @@
+# Function To rotate array by 1 element
 from random import randint
 def array_rotation(arr):
     tmp = arr[0]
